@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "AWAKENNING";
+    src: url(/src/public/fonts/AWAKENNING\ Personal\ Use.ttf);
+}
+@font-face {
+    font-family: "blancoynegro";
+    src: url(./fonts/White\ On\ Black.ttf);
+}
+.fuenteNueva{
+    font-family: "blancoynegro";
+}
+
+#lista{
+    position: absolute;
+    width: 90%;
+    height: 62%;
+    left: 3%;
+    top: 67px;
+    background: #F3E7E7;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 10px 6px 4px #e2dada;
+    overflow-y: auto;
+    border: none;
+    text-decoration: none;
+}
+#mensajeTipeo{
+    position: absolute;
+    width: 60%;
+    height: 98px;
+    left: 49px;
+    top: 98%;
+    border: none;
+    background: #E0F5F5;
+    border-radius: 15px 0px 0px 0px;
+    margin-bottom: 13%;
+    
+}
+#btnEnviar{
+    border: none;
+    position: absolute;
+    width: 112px;
+    height: 60px;
+    left: 68%;
+    top: 100%;
+    background: #D2ECEC;
+    border-radius: 51px 58px 59px 0px;
+}
+#iconoUsuario{
+    border: none;
+    position: absolute;
+    width: 86px;
+    height: 82px;
+    left: 57px;
+    top: 82%;
+   
+    box-sizing: border-box;
+}
+
+.mensajeUsuario{
+    width: 86px;
+    height: 82px;
+    border: none;
+    border-radius: 88%;
+    background: #837AEF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+
+}
+.mensaje{
+    border: none;
+    background: #DDCCCC;
+    border-radius: 0px 24px 24px 9px;
+    display:inline-flex;    
+    height: 83px;
+    margin-top: 20px; 
+
+}
+
+.mensajeTexto{
+    border: none;
+    position: relative;
+    display: inline;
+    align-items: center;
+    font-family: "Franklin Gothic";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    width: 300px;
+    height: 48px;
+    color: #000000;
+    margin-left: 3%;
+    
+}
+.horario_de_mensaje{
+    display: inline-block;
+    padding-left: 30px;
+    left: 77px;
+top: 172px;
+    width: max-content;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+#nombre_cargado_por_Usuario{
+    border: none;
+    position: absolute;
+    width: 20%;
+    height: 39px;
+    left: 167px;
+    top: 88%;
+    background: #E0F5F5;
+    border-radius: 31px;
+
+}
+
+#mensaje_en_lista{
+    text-decoration: none;
+}
+::marker {
+    color: blue;
+    font-size:0;
+  }
+.contenedor_header_mensaje{
+    display: table-header-group;
+    position: relative;
+}
+#borrarMensajes{
+    border: none;
+    position: absolute;
+    width: 124px;
+    height: 36px;
+    left: 76%;
+    top: 79%;
+    background: #F8DBDB;
+    border-radius: 37px;
+}

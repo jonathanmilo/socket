@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="usuariosStile.css">
+    
+    
+</head>
+<body>
+    <h1>ejemplo
+    </h1>
+        <div id="iconoUsuario"></div>
+     <div>         
+        <button id="borrarMensajes" onclick=" Borrar()">borrar Mensajes</button>
+      
+        <input title="inputNombre" type="text" id="nombre_cargado_por_Usuario" placeholder="Ingrese su nombre" required>
+        <input type="text" id="mensajeTipeo" placeholder="ingrese su mensaje aqui :)">
+        <button  id="btnEnviar" >enviar</button>
+    </div>
+    <ul id="lista"></ul>
+    <script src="usuarios.js"></script>
+</body>
+</html>
